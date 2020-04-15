@@ -1,0 +1,3 @@
+O ano bissexta tem que ser divisível por 4 => ano % 4 == 0
+Também não pode ser divisível por 100 => ano % 100 != 0
+E também o ano tem que ser divisível por 400 => ano %400 == 0

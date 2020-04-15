@@ -1,0 +1,12 @@
+Módulo math
+
+módulo de operações matemáticas
+Funções:
+
+* Trunc() => mostra a porção inteiro do número
+exemplo: 9.5487 =>  9
+
+* Hypot() => mostra a hipotenusa(co, ca) informanto (co) cateto oposto e
+                                                    (ca) cateto adjacente.
+
+

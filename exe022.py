@@ -1,0 +1,11 @@
+nome = input('Informe o seu nome completo: ').strip()
+print(nome.upper())
+print(nome.lower())
+print(nome.capitalize())
+print(nome.title())
+print(f'Seu nome tem ao todo {len(nome)- nome.count(" ")}')
+nome = nome.split()
+
+#soma = int(len(nome[0]) + int(len(nome[1])))
+#print(soma)
+print(len(nome[0]))

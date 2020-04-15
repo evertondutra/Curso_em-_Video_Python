@@ -1,0 +1,40 @@
+frase = 'Curso em Video Python'
+
+frase[9]  == 'V'
+frase[9:13] == 'Vide'
+frase[[9:21] == 'Video Python' ==> começa do 9 e vai até o 21.
+frase[9:21;2] == 'VdoPto'    ==> conta a partir do 9 e em 2 em 2.
+frase[:5] ==> começa do 0 e vai até a 4 string.
+frase[15:] ==> começa no 15 e vai até o final da string.
+frase[9::3] ==> começa no 9 e vai até o final conando de 3 em 3.
+
+Análise de uma string.
+
+**** len(frase) ==> mostra a quantidade de caracteres.*****
+frase.count('o') ==> conta quantas vezes aparece a letra 'o'.
+frase.count('o', 0, 13) ==> conta quantas vezes aparece o 'o', fatiando do 0 até o 13.
+frase.find('deo') ==> mostra a partir de quanto encontrou o 'deo'.
+frase.find('android') ==> retorna o valor -1, significa que a string não existe.
+'Curso' in frase ==> pergunta se existe a string 'Curso', se houver ele retornará True.
+
+TRANSFORMAÇÃO:
+
+frase.replace('Python', 'Android') ==> troca a palavra 'Python' por 'Android'.
+frase.upper() ==> transforma a string em maiúsculas.
+frase.lower() ==> transforma todas as strings em minúsculas.
+frase.capitalize() ==> transforma todos os carasteres em minúsculas e somente o primeiro caraster fica em maiúscula.
+frase.tittle() ==> pega palavra por palavra e aumenta a primeira letra para maiúscula.
+frase.strip() ==> remove os espaços inúteis no começo e no final de uma string.
+frase.rstrip() ==> remove os espaços somente da direida da string
+frase.lstrip() ==> remove somente os espaços da esquerda da string.
+
+DIVISÃO DA STRING
+
+frase.split() ==> gera uma lista com todas a palavras de uma cadeia de caracteres.
+
+JUNÇÃO
+
+'-'.join(frase) ==> junta a cadeia de caracteres separando as com '-'.
+
+
+

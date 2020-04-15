@@ -1,0 +1,3 @@
+MÓDULO DATETIME:
+
+**date.today().year  => ano = date.today().year  o ano recebe o ano atual.

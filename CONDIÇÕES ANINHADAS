@@ -1,0 +1,6 @@
+if <condição1> :
+
+elif <condição 2>:
+
+else:
+    <condição 3>

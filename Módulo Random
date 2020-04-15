@@ -1,0 +1,6 @@
+MÓDULO RANDOM:
+
+** Randint(0, 5)  # Sorteia um número de 0 a 5.
+**Choice(lista)   # Escolhe 1 em uma lista.
+**Choices(lista)  # Escolhe uma ordem diferente para uma lista
+
