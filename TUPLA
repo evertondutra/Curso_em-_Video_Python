@@ -1,0 +1,48 @@
+Variáveis compostas:
+
+Tuplas:
+As tuplas são IMUTÁVEIS.
+
+É uma variavél compostas por vários valores.
+Cada elemento é indicado por índices apresentado entre colchetes ()
+    exemplo:
+
+    lanche = [hamburguer, suco, pizza, pudim]
+    lanche = [0,          1,     2,    ,3  ]
+    print(lanche[2]) => ira mostrar a pizza
+    print(lanche[0:2] => irá mostrar hamburguer e suco.
+    print(lanche[1:] => irá mostrar a partir da posição 1 que é o suco até a última, mostrando a pizza e o pudim.
+    print(lanche[-1] => irá mostrar o último que é o pudim.
+    print(lanche[-2] => irá mostrar o penúltimo que é a pizza.
+    print(lanche[::-1]) => mostra de tráz pra frente. ('Pudim', 'Pizza', 'Suco', 'hamburguer')
+
+    len(lanche)= 4 => mostra  a quantidade dentro de lanche.
+
+    for c in lanche:
+        print(c)       => enquanto estiver lendo a váriavel lanche
+                          mostrará um de cada vez.
+                   hamburguer
+                   suco
+                   pizza
+                   pudim
+                   * aqui ele sai do loop*
+
+    for c in range(0, len(lanche):
+        print(lanche[c])        => a cada loop, mostra qual lanche na posição do contador
+                                   mostra o lanche e tbm a posição
+
+    for pos, comida in enumerate(lanche):
+        print(f'Eu vou comer {comida} na posição {pos}')
+
+    print(sorted(lanche)) => Organiza em ordem alfabética.
+
+a = (2, 5, 4)
+b = (5, 8, 1 ,2)
+c = b + a
+
+    print(c.count(5)) => mostra quantos números 5 tem na variável c
+    print(c.index(8)) => mostra em que posição esta o número 8
+
+pessoa = ('Gustavo', 39, 'M', 99.88)  => pode haver dados diferentes em tuplas de python
+
+del(pessoa) =. simplesmente apaga a váriavel da memória.
