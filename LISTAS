@@ -1,0 +1,73 @@
+LISTAS
+Em listas recebem colchetes
+As listas são mutáveis
+
+***
+INSERINDO ELEMENTOS
+
+lista.append() => a lista recebe mais o que estiver entre as chaves (adiciona somente a última posição)
+lista.insert(0,' ') => a lista adiciona o desejado na posição 0 (podendo ser em qualquer posição)
+
+APAGANDO ELEMENTOS
+
+del lista[3]  => Apaga o elemento na posição 3 da lista
+lista.pop() => serve para eliminar o último elemento (podendo também eliminar pelo índice que indicar)
+lista.remove('-') => elimina pelo valor e não pelo índice (pelo conteúdo)
+
+valores = list(range(4, 11) => cria uma lista chamada valores com um range de 4 à 11
+valores = [4, 5, 6, 7, 8, 9, 10]
+
+valores.sort() => coloca a lista valores em ordem
+valores.sort(reverse=True) => coloca a losta valores em ordem reversa.
+
+len(valores) => conta a quantidade de elementos nesta lista.
+lista[-1] =>  mostra o último valor.
+
+
+-------------------------------------------------
+for v in valores:
+    print(f'{v}...',end='')
+
+    mostra = 5...9...4...
+--------------------------------------------------
+for c, v in enumerate(valores):
+    print(f'Na posição {c} encontrei o valor {v}.')
+print('Cheguei no final da lista.')
+
+    mostra=
+    Na posição 0 encontrei o valor 5.
+    Na posição 1 encontrei o valor 9.
+    Na posição 2 encontrei o valor 4.
+    Cheguei no final da lista.
+----------------------------------------------------
+valores = []
+for cont in range(0, 5):
+    valores.append(int(input('Digite um valor: ')))
+
+    *Adiciona valores a uma lista pelo teclado.
+----------------------------------------------------
+a = [2, 3, 4, 7]
+b = a     ***** esta linha faz gerar uma LIGAÇÃO.***
+b[2]= 8
+print(f'Lista A: {a}')
+print(f'Lista B: {b}')
+
+    MOSTRA:
+    Lista A: [2, 3, 8, 7]
+    Lista B: [2, 3, 8, 7]
+
+*** Quando uma lista recebe outra, forma uma ligação
+ que se uma é alterada a outra também é
+
+ a = [2, 3, 4, 7]
+ b = a[:]     ***** esta linha faz gerar uma CÓPIA.***
+ b[2]= 8
+ print(f'Lista A: {a}')
+ print(f'Lista B: {b}')
+
+       MOSTRA:
+       Lista A: [2, 3, 4, 7]
+       Lista B: [2, 3, 8, 7]
+
+ -----------------------------------------------------------
+

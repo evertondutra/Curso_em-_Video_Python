@@ -18,4 +18,4 @@ elif 5 <= med < 7:
     est = 'de RECUPERAÇÃO'
 else:
     est = 'APROVADO'
-print(f'A média é {med:.2f} e o aluno esta {est}.')
+print(f'A média é {med:.1f} e o aluno esta {est}.')
