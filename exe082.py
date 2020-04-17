@@ -1,5 +1,5 @@
 """
-Crie umprograma que vai ler vários números e colocar em uma lista.
+Crie um programa que vai ler vários números e colocar em uma lista.
  Depois disso, creie duas lista extras que vão conter apenas os
  valores pares e ímpares digitado respectivamente. Ao final, mostre
  o conteúdo das três listas geradas.
