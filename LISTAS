@@ -70,4 +70,20 @@ print(f'Lista B: {b}')
        Lista B: [2, 3, 8, 7]
 
  -----------------------------------------------------------
+*** Colocando uma lista dentro de outra
+dados1 = []
+dados.append('Pedro')
+dados.append(25)
+dados = ['Pedro', 25]
 
+pessoas.append(dados[:])   => adiciona uma cópia da lista dados para a lista pessoas
+lista            dados1[]       dados2[]       dados3[]
+indice de dados   0     1        0     1       0     1
+pessoa =      [['Pedro', 25], ['Maria', 19], ['João', 32]]
+indice de pessoas    0               1             2
+
+print(pessoas[0][0])  =  "Pedro"  => irá mostrar o índice 0 de pessoas que é "Pedro, 25"
+                          eo índece 0 de dados que é 'Pedro'
+print(pessoas[1][1])  = 19
+print(pessoas[2][0])  = "João"
+print(pessoas[1])     = ['Maria', 19]
