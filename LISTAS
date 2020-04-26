@@ -16,6 +16,7 @@ lista.remove('-') => elimina pelo valor e não pelo índice (pelo conteúdo)
 
 valores = list(range(4, 11) => cria uma lista chamada valores com um range de 4 à 11
 valores = [4, 5, 6, 7, 8, 9, 10]
+sum(valores) => soma os valores dentro da lista.
 
 valores.sort() => coloca a lista valores em ordem
 valores.sort(reverse=True) => coloca a losta valores em ordem reversa.

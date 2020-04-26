@@ -1,8 +1,9 @@
 from operator import itemgetter     # para importar
 
-ranking = sorted(jogo.items(), key=itemgetter(1))
+ranking = sorted(jogo.items(), key=itemgetter(1), reverse=True)
  dict          (k)    (v)
                 0      1
 items              0
 
 # coloca o dicionário em ordem pela posição indicada.
+# O reverse=True   => para ordenar pela ordem inversa.
