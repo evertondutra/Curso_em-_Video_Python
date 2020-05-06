@@ -1,0 +1,90 @@
+Criando uma função
+
+FUNÇÃO SEM PARAMETROS
+
+def linha():
+    print('-'*40)   => cria uma linha sempre que eu digitar a funçao ( linha())
+
+********************************************************************************
+FUNÇÃO COM PARAMETROS
+
+def  => cria comandos personalizados
+
+* def mensagem(msg):  cria um def onde posso alterar a msg.
+    print("-"*40)
+    print(msg)
+    print('-'*40)
+mensagem('Everton Dutra')
+
+     MOSTRA
+
+----------------------------------------
+Everton Dutra
+----------------------------------------
+
+*******************************************************************************
+criando uma def de soma
+
+def soma(a,b):
+    s = a + b
+    print(s)
+
+# Programa principal
+soma(4,5)
+soma(8, 9)
+soma(2, 1)
+
+**********************************************************************************
+
+CRIANDO UMA SOMA COM VÁRIOS VALORES
+
+def soma (* valores):
+    s = 0
+    for num in valores:
+        s += num
+    print(f'Somando os núneros {valores} temos {s}')
+
+
+soma(5, 2)
+soma(2, 9, 4)
+
+Somando os núneros (5, 2) temos 7
+Somando os núneros (2, 9, 4) temos 15
+
+************************************************************************************
+
+CRIANDO UM CONTADOR
+
+def contador(*num):
+    print(num)
+
+
+contador(2, 1, 7)
+contador(8, 0)
+contador(4, 4, 7, 6, 2)
+
+(2, 1, 7)
+(8, 0)
+(4, 4, 7, 6, 2)
+
+************************************************************************************
+
+CRIANDO UMA DOBRA
+
+def dobra(lst):
+    pos = 0
+    while pos < len(lst):
+        lst[pos] *= 2
+        pos += 1
+
+
+valores = [6, 3, 9, 1, 0, 2]
+print(valores)
+dobra(valores)
+print(valores)
+
+[6, 3, 9, 1, 0, 2]
+[12, 6, 18, 2, 0, 4]
+
+*************************************************************************************
+
