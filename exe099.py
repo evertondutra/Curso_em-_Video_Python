@@ -13,11 +13,9 @@ def maior( *valores):
     cont = m = 0
     lin()
     print('Analizando valores passado...')
-    for p,v in enumerate(valores):
+    for v in valores:
         print(v, end=" ")
         sleep(0.5)
-        if p == 0:
-            m = v
         if v > m:
             m = v
         cont += 1
