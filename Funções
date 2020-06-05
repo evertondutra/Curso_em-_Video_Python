@@ -87,4 +87,42 @@ print(valores)
 [12, 6, 18, 2, 0, 4]
 
 *************************************************************************************
+   INTERACTIVE
+      HELP
+
+help(print)  => mostra a funcionalidade (manual) do print
+
+
+
+***   DOCSTRINGS
+
+É criar um manual para uma def criada.
+
+***   PARÂMETROS OPCIONAIS
+def somar(a=0, b=0, c=0): quando coloca um valor para o indíce. (a=0)
+    s = a + b + c
+    print(f'A soma vale {s})
+
+***   ESCOPO DE VARIÁVEIS
+ É o local onde a variável vai existir e onde vai deixar de existir
+
+ ESCOPO LOCAL é quando uma variável é criada dentro de uma def por exemplo
+ ESCOPO GLOBAL é quando a variável é criada dentro do programa principal
+
+ ***   RETORNANDO VALORES  ( RETURN )
+
+função para ler um número inteiro
+def leiaint(msg):
+    ok = False
+    valor = 0
+    while True:
+        n = input(msg)
+        if n.isnumeric():
+            valor = int(n)
+            ok = True
+        else:
+            print('\033[31mERRO! Digite um número válido.\033[m')
+        if ok:
+            break
+    return valor
 
