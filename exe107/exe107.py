@@ -3,7 +3,7 @@ Crie um módulo chamado moeda.py que tenha as funções
 imcorporadas aumentar(), diminuir(), dobro() e metade().
 Faça também um programa que importe esse módulo e use algumas dessa funções.
 """
-from exe107 import moeda
+import moeda
 
 p = float(input('digite o preço: RS '))
 print(f'A metade de {p} é {moeda.metade(p)}')
